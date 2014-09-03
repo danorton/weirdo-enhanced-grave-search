@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!-- © 2014 Daniel Norton d/b/a/ Weirdosoft -->
+<head>
+  <title>Title in bg</title>
+  <style>
+    * {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+    }
+    body {
+      width: 20em;
+    }
+    a {
+      color: inherit;
+      outline: none;
+      text-decoration: none;
+    }
+    a:hover, a:focus {
+      text-decoration: underline;
+    }
+    .bw {
+      margin: 0.5em auto;
+      width: 100%;
+    }
+    .ti {
+      margin-bottom: 0.25em;
+    }
+    .ti > * {
+      vertical-align: middle;
+    }
+    .titx {
+      float: right;
+      font-size: 16px;
+      display: inline-block;
+      text-align: right;
+    }
+    .titx > ver {
+      font-size: 13px;
+    }
+    .ft {
+      float: right;
+      margin: 3px 0;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div id='bw' class='bw'>
+    <div class="ti"><img src="../32px-icon.png" disabled><div class="titx">Enhanced grave search<br/><span class="ver">Ver. 1.0.0.0<br/></span></div></div>
+    <div id="en_toggle_div" class="mi"><input id="en_toggle" type="checkbox" checked><label for="en_toggle">Enabled</label></div>
+    <div id="def_country_div" class="mi">
+      <label for="def_country_select">Default country:</label>
+      <select id="def_country_select">
+      <option value=0>Use website default</option>
+      <option value=4 selected>The United States</option>
+      <option value=35>Ireland</option>
+      </select>
+    </div>
+    <div class="ft">&copy; 2014 <a href="https://danielnorton.com" target="_blank">Weirdosoft</div>
+  </div>
+</body>
+</html>
