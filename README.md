@@ -6,6 +6,9 @@ This package provides the Weirdosoft Enhanced Grave Search browser extensions.
 ## Documentation
 The latest source code documentation is at [https://danorton.github.io/weirdo-enhanced-grave-search/jsdoc/](https://danorton.github.io/weirdo-enhanced-grave-search/jsdoc/)
 
+## Source repo
+The latest source code repo is at [https://github.com/danorton/weirdo-enhanced-grave-search](https://github.com/danorton/weirdo-enhanced-grave-search)
+
 ## License
 **GPL v3**
 
